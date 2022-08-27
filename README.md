@@ -1,6 +1,6 @@
 # Template-driven Exercise
 
-Add a form with the following Inputs (and validators):
+Add a form with the following Inputs (and validators):<br/>
 1 - Mail address (should not be empty and shoud be an email address)<br/>
 2 - Dropdown which allows the user to select from three different Subscription ("Basic", "Advanced", "Pro") - Set "Advanced" as Default<br/>
 3 - A password field (should not be empty field)<br/>
