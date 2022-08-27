@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  width: 30vw;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.form__field__warning {
+  color: red;
+  font-weight: 100;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+.form__button {
+  width: 15vw;
+  min-width: 80px;
+  max-width: 100px;
+  align-self: center;
+}

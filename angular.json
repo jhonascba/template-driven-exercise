@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "template-drive-exercise"
+    }
+  },
+  "defaultProject": "template-drive-exercise",
+  "cli": {
+    "analytics": false
+  }
 }
